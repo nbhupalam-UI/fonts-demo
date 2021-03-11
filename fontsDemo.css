@@ -1,0 +1,182 @@
+     .fonts-section, .documentation-section, .contact-us {
+      width: 900px;
+      margin: 0 auto;
+     }
+    .fonts-demo-container .font-area {
+      height: 336px;
+      width: 300px;
+      
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #000000;
+      letter-spacing: 0.5px; }
+    .fonts-demo-container #result, .fonts-demo-container #value1, .fonts-demo-container #value2, .fonts-demo-container #value3, .fonts-demo-container #value4 {
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.5;
+      color: green;
+      letter-spacing: 0.5px; }
+    .fonts-demo-container #copyButton{
+      margin-top: 10px; }
+    .fonts-demo-container #err {
+      
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.5;
+      color: red;
+      letter-spacing: 0.5px;
+    margin-left: 15px; }
+    .fonts-demo-container #sampleElement {
+      
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.38;
+      color: #000000;
+      letter-spacing: 0.5px; }
+
+      .applyBtn {
+        background: cornflowerblue;
+        color: white;
+        margin-top: 10px;
+        width: 100px;
+        font-weight: 500;
+      }
+
+      .copyBtn {
+        background: cornflowerblue;
+        width: 100px;
+        color: white;
+        font-weight: 500;
+      }
+
+      .applyBtn:hover , .applyBtn:focus {
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        outline: none;
+      }
+
+      .copyBtn:hover, .copyBtn:focus {
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        outline: none;
+      }
+
+      .green-background {
+        background: green;
+      }
+
+      .red-background {
+        background: red;
+      }
+
+      .fonts-demo-title {
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .documentation-link {
+        font-size: 20px;
+        cursor: pointer;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background: transparent;
+        margin-right: 15px;
+      }
+
+      .documentation-link:hover, .documentation-link:focus {
+        color: #ffffff;
+        outline: none;
+      }
+
+      .fonts-demo-header {
+        margin: 0 0 30px;
+        padding: 15px;
+        background: #0072c5;
+        color: white;
+      }
+
+      .documentation-section {
+        margin-top: 30px;
+        display: none;
+      }
+
+      .fonts-section-title {
+        margin-left: 13px;
+      }
+
+      .backToTop {
+        position: fixed;
+        bottom: 20px;
+        right: 10%;
+      }
+      
+      .fonts-demo-logo {
+        display: inline-block;
+        border: 1px solid;
+        padding: 0 5px;
+        border-radius: 6px;
+        margin-right: 15px;
+      }
+
+      .computed-font-styles {
+        margin: 10px 0 0;
+        background: #474e5d;
+        display: none;
+        padding-bottom: 5px;
+      }
+
+      .computed-font-styles-section-title {
+          color: bisque;
+      }
+
+      .computed-font-styles-section p {
+          margin-bottom: 5px;
+      }
+
+      .computed-font-styles-section p span:first-child {
+          color: #27f4ff;
+      }
+
+      .computed-font-styles-section p span:last-child {
+        color: #c3ff5b;
+      }
+
+      .white-font-background {
+        background: #474e5d;
+        padding: 5px;
+      }
+
+      .contact-us-icon {
+        max-height: 45px;
+        cursor: pointer;
+      }
+
+      .fonts-demo-header-right {
+        float: right;
+      }
+
+      .contact-us {
+        margin-top: 30px;
+      }
+
+      .team-section {
+        margin-bottom: 20px;
+      }
+
+    .team-section p {
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    .contact-us-container-description {
+      font-size: 20px;
+    }
+
+    .contact-us {
+      display: none;
+    }
